@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\Interfaces\" />
+    <Folder Include="Contracts\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EducationApi.Domain\EducationApi.Domain.csproj" />
+  </ItemGroup>
+</Project>
